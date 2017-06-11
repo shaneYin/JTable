@@ -1,0 +1,48 @@
+body,
+th {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+#table {
+  position: relative;
+  top: 100px;
+  width: 803px;
+  margin: 0 auto;
+}
+#table thead {
+  background-color: #9cc;
+}
+#table tbody {
+  background: #fff;
+}
+#table th,
+#table tr {
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #fff;
+  cursor: default;
+}
+#table th:last-child,
+#table tr:last-child {
+  border: none;
+}
+#table th {
+  line-height: 60px;
+}
+#table tr {
+  line-height: 40px;
+  transition: all 0.25s;
+}
+
+/* 这三个样式的顺序不可改变 */
+
+#table tr.odd {
+  background-color: #ffc;
+}
+#table tr.hover {
+  background-color: #FCE895;
+}
+#table tr.selected {
+  background-color: #9cc;
+}
